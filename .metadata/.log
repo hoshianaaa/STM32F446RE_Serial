@@ -1,0 +1,168 @@
+!SESSION 2019-05-05 19:10:04.369 -----------------------------------------------
+eclipse.buildId=unknown
+java.version=1.8.0_181
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86, WS=win32, NL=ja_JP
+Framework arguments:  C:\STM_workspace\STM32F446RE_Serial\STM32F446RE_Serial1\.cproject
+Command-line arguments:  -os win32 -ws win32 -arch x86 C:\STM_workspace\STM32F446RE_Serial\STM32F446RE_Serial1\.cproject
+
+!ENTRY com.atollic.truestudio.productmanager 1 0 2019-05-05 19:10:22.615
+!MESSAGE Loading product manager
+
+!ENTRY com.atollic.truestudio.productmanager 1 0 2019-05-05 19:10:22.626
+!MESSAGE OS info: Windows 10, 10.0, x86
+
+!ENTRY TrueSTUDIO 1 0 2019-05-05 19:10:23.688
+!MESSAGE Target: STM32, Version: 9.3.0, Build date: 20190212-0734, Installation dir: /C:/Program Files (x86)/Atollic/TrueSTUDIO for STM32 9.3.0/ide/
+
+!ENTRY TrueSTUDIO 1 0 2019-05-05 19:10:23.690
+!MESSAGE Workspace: C:\STM_workspace\STM32F446RE_Serial
+
+!ENTRY org.eclipse.jface 2 0 2019-05-05 19:10:25.114
+!MESSAGE Keybinding conflicts occurred.  They may interfere with normal accelerator operation.
+!SUBENTRY 1 org.eclipse.jface 2 0 2019-05-05 19:10:25.114
+!MESSAGE A conflict occurred for ALT+CTRL+T:
+Binding(ALT+CTRL+T,
+	ParameterizedCommand(Command(org.eclipse.team.svn.ui.command.EditPropertiesCommand,Show Properties,
+		,
+		Category(org.eclipse.team.svn.ui.command.category,SVN,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@aa0813,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+Binding(ALT+CTRL+T,
+	ParameterizedCommand(Command(org.eclipse.tm.terminal.connector.local.command.launch,Open Local Terminal on Selection,
+		,
+		Category(org.eclipse.tm.terminal.view.ui.commands.category,ターミナル・コマンド,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@1849604,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+
+!ENTRY com.atollic.truestudio.integration.processorexpert 0 0 2019-05-05 19:10:29.525
+!MESSAGE Atollic TrueSTUDIO Processor Expert integration is up.
+
+!ENTRY edu.hawaii.ics.csdl.jupiter 1 0 2019-05-05 19:10:29.565
+!MESSAGE Code Review is up.
+
+!ENTRY org.eclipse.egit.ui 2 0 2019-05-05 19:10:30.206
+!MESSAGE Warning: The environment variable HOME is not set. The following directory will be used to store the Git
+user global configuration and to define the default location to store repositories: 'C:\Users\wwwho'. If this is
+not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
+EGit might behave differently since they see different configuration options.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+
+!ENTRY org.eclipse.cdt.core 1 0 2019-05-05 19:10:37.600
+!MESSAGE Indexed 'STM32F446RE_Serial1' (21 sources, 97 headers) in 5.09 sec: 8,038 declarations; 29,487 references; 6 unresolved inclusions; 269 syntax errors; 2,749 unresolved names (6.8%)
+
+!ENTRY org.eclipse.cdt.core 1 0 2019-05-05 19:34:23.011
+!MESSAGE Indexed 'STM32F446RE_Serial2' (21 sources, 53 headers) in 3.86 sec: 5,725 declarations; 25,362 references; 15 unresolved inclusions; 267 syntax errors; 3,172 unresolved names (9.3%)
+
+!ENTRY org.eclipse.cdt.dsf.gdb 4 5012 2019-05-05 19:40:06.145
+!MESSAGE Failed to execute MI command:
+target extended-remote localhost:61234
+
+Error message from debugger back end:
+localhost:61234: \212ù\202É\220Ú\221±\202³\202ê\202Ä\202¢\202é\203h\203\211\203C\203u\217ã\202Ì\203f\203B\203\214\203N\203g\203\212\202É\203h\203\211\203C\203u\202ð\220Ú\221±\202µ\202æ\202¤\202Æ\202µ\202Ü\202µ\202½\201B\r\n.
+
+!ENTRY com.atollic.truestudio.productmanager 1 0 2019-05-05 19:40:17.314
+!MESSAGE Unloading product manager
+!SESSION 2019-05-05 19:40:23.127 -----------------------------------------------
+eclipse.buildId=unknown
+java.version=1.8.0_181
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86, WS=win32, NL=ja_JP
+Framework arguments:  C:\Users\wwwho\Desktop\.cproject
+Command-line arguments:  -os win32 -ws win32 -arch x86 C:\Users\wwwho\Desktop\.cproject
+
+!ENTRY com.atollic.truestudio.productmanager 1 0 2019-05-05 19:40:42.039
+!MESSAGE Loading product manager
+
+!ENTRY com.atollic.truestudio.productmanager 1 0 2019-05-05 19:40:42.066
+!MESSAGE OS info: Windows 10, 10.0, x86
+
+!ENTRY TrueSTUDIO 1 0 2019-05-05 19:40:49.303
+!MESSAGE Target: STM32, Version: 9.3.0, Build date: 20190212-0734, Installation dir: /C:/Program Files (x86)/Atollic/TrueSTUDIO for STM32 9.3.0/ide/
+
+!ENTRY TrueSTUDIO 1 0 2019-05-05 19:40:49.307
+!MESSAGE Workspace: C:\STM_workspace\STM32F446RE_Serial
+
+!ENTRY org.eclipse.jface 2 0 2019-05-05 19:41:04.022
+!MESSAGE Keybinding conflicts occurred.  They may interfere with normal accelerator operation.
+!SUBENTRY 1 org.eclipse.jface 2 0 2019-05-05 19:41:04.022
+!MESSAGE A conflict occurred for ALT+CTRL+T:
+Binding(ALT+CTRL+T,
+	ParameterizedCommand(Command(org.eclipse.team.svn.ui.command.EditPropertiesCommand,Show Properties,
+		,
+		Category(org.eclipse.team.svn.ui.command.category,SVN,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@1933031,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+Binding(ALT+CTRL+T,
+	ParameterizedCommand(Command(org.eclipse.tm.terminal.connector.local.command.launch,Open Local Terminal on Selection,
+		,
+		Category(org.eclipse.tm.terminal.view.ui.commands.category,ターミナル・コマンド,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@10b7fd5,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+
+!ENTRY com.atollic.truestudio.integration.processorexpert 0 0 2019-05-05 19:41:22.575
+!MESSAGE Atollic TrueSTUDIO Processor Expert integration is up.
+
+!ENTRY org.eclipse.egit.ui 2 0 2019-05-05 19:41:22.768
+!MESSAGE Warning: The environment variable HOME is not set. The following directory will be used to store the Git
+user global configuration and to define the default location to store repositories: 'C:\Users\wwwho'. If this is
+not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
+EGit might behave differently since they see different configuration options.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+
+!ENTRY edu.hawaii.ics.csdl.jupiter 1 0 2019-05-05 19:41:25.128
+!MESSAGE Code Review is up.
+
+!ENTRY org.eclipse.cdt.core 1 0 2019-05-05 19:41:35.348
+!MESSAGE Indexed 'jjjjjjj.txt' (15 sources, 69 headers) in 5.47 sec: 7,224 declarations; 31,247 references; 3 unresolved inclusions; 204 syntax errors; 3,767 unresolved names (8.9%)
+
+!ENTRY org.eclipse.cdt.dsf.gdb 4 5012 2019-05-05 19:42:12.886
+!MESSAGE Failed to execute MI command:
+target extended-remote localhost:61234
+
+Error message from debugger back end:
+localhost:61234: \212ù\202É\220Ú\221±\202³\202ê\202Ä\202¢\202é\203h\203\211\203C\203u\217ã\202Ì\203f\203B\203\214\203N\203g\203\212\202É\203h\203\211\203C\203u\202ð\220Ú\221±\202µ\202æ\202¤\202Æ\202µ\202Ü\202µ\202½\201B\r\n.
+
+!ENTRY org.eclipse.ui 4 4 2019-05-05 19:48:48.892
+!MESSAGE 参照部分はまだ存在しません: org.eclipse.ui.views.TaskList。
+
+!ENTRY com.atollic.hardwaredebug.launch 2 0 2019-05-05 20:10:35.223
+!MESSAGE Won't launch debug session since we failed to locate the binary.
+
+!ENTRY com.atollic.hardwaredebug.launch 2 0 2019-05-05 20:10:54.438
+!MESSAGE Won't launch debug session since we failed to locate the binary.
+
+!ENTRY org.eclipse.cdt.core 1 0 2019-05-05 20:45:47.819
+!MESSAGE Indexed 'STM32F446RE_Serial3' (21 sources, 97 headers) in 4.87 sec: 8,042 declarations; 29,527 references; 6 unresolved inclusions; 269 syntax errors; 2,755 unresolved names (6.8%)
+
+!ENTRY com.atollic.hardwaredebug.launch 2 0 2019-05-05 20:56:52.046
+!MESSAGE Won't launch debug session since we failed to locate the binary.
+
+!ENTRY org.eclipse.cdt.ui 4 0 2019-05-05 21:05:11.885
+!MESSAGE Error in CDT UI during reconcile
+!STACK 1
+C Model Exception: C Model Status [Element main.c does not exist.]
+	at org.eclipse.cdt.internal.core.model.CElement.newNotPresentException(CElement.java:484)
+	at org.eclipse.cdt.internal.core.model.TranslationUnit.makeConsistent(TranslationUnit.java:573)
+	at org.eclipse.cdt.internal.core.model.ReconcileWorkingCopyOperation.executeOperation(ReconcileWorkingCopyOperation.java:62)
+	at org.eclipse.cdt.internal.core.model.CModelOperation.execute(CModelOperation.java:341)
+	at org.eclipse.cdt.internal.core.model.CModelOperation.run(CModelOperation.java:607)
+	at org.eclipse.cdt.internal.core.model.CModelOperation.runOperation(CModelOperation.java:635)
+	at org.eclipse.cdt.internal.core.model.WorkingCopy.reconcile(WorkingCopy.java:362)
+	at org.eclipse.cdt.internal.ui.text.CReconcilingStrategy.reconcile(CReconcilingStrategy.java:78)
+	at org.eclipse.cdt.internal.ui.text.CReconcilingStrategy.reconcile(CReconcilingStrategy.java:63)
+	at org.eclipse.cdt.internal.ui.text.CompositeReconcilingStrategy.reconcile(CompositeReconcilingStrategy.java:87)
+	at org.eclipse.cdt.internal.ui.text.CCompositeReconcilingStrategy.reconcile(CCompositeReconcilingStrategy.java:90)
+	at org.eclipse.jface.text.reconciler.MonoReconciler.process(MonoReconciler.java:73)
+	at org.eclipse.cdt.internal.ui.text.CReconciler.process(CReconciler.java:349)
+	at org.eclipse.jface.text.reconciler.AbstractReconciler$BackgroundThread.run(AbstractReconciler.java:207)
+!SUBENTRY 1 org.eclipse.cdt.core 4 969 2019-05-05 21:05:11.904
+!MESSAGE Element main.c does not exist.
