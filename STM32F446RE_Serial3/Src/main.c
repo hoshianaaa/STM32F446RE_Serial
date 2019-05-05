@@ -60,11 +60,26 @@ static void MX_USART1_UART_Init(void);
 
 /* Private user code ---------------------------------------------------------*/
 /* USER CODE BEGIN 0 */
-char rxbuf[1];
-char txbuf1[] = "Recieved 'a'!!!\r\n";
-char txbuf2[] = "'a' Key Pressed\r\n";
-char txbuf3[] = "'b' Key Pressed\r\n";
-char txbuf4[1] = "a";
+
+
+uint8_t uart_getc(void)
+{
+	uint8_t c = 0;
+	char buf[1];
+	HAL_UART_Receive(&huart1, (uint8_t *)buf, sizeof(buf), 0xFFFF);
+	c = buf[0];
+	return c;
+}
+
+void uart_putc(uint8_t c)
+{
+	char buf[1];
+	buf[0] = c;
+	HAL_UART_Transmit(&huart2, (uint8_t *)buf, sizeof(buf), 0xFFFF);
+}
+
+
+
 /* USER CODE END 0 */
 
 /**
@@ -98,19 +113,22 @@ int main(void)
   MX_USART2_UART_Init();
   MX_USART1_UART_Init();
   /* USER CODE BEGIN 2 */
-
+  uint8_t head;
+  uint8_t data[3];
   /* USER CODE END 2 */
 
   /* Infinite loop */
   /* USER CODE BEGIN WHILE */
   while (1)
   {
-
-	  HAL_UART_Transmit(&huart1,(uint8_t *)txbuf4, sizeof(txbuf4), 0xFFFF);
-	  HAL_UART_Receive(&huart1,(uint8_t *)rxbuf, sizeof(rxbuf), 0xF);
-	  if(rxbuf[0] == 'a')HAL_UART_Transmit(&huart2,(uint8_t *)txbuf1, sizeof(txbuf1), 0xFFFF);
-    /* USER CODE END WHILE */
-
+	  head = uart_getc();
+	  if(head == 255){
+		  data[0] = uart_getc();
+		  data[1] = uart_getc();
+		  data[2] = uart_getc();
+		  for(int i=0;i<3;i++)uart_putc(data[i]);
+		  uart_putc('\n');
+	  }
     /* USER CODE BEGIN 3 */
   }
   /* USER CODE END 3 */
@@ -176,7 +194,7 @@ static void MX_USART1_UART_Init(void)
 
   /* USER CODE END USART1_Init 1 */
   huart1.Instance = USART1;
-  huart1.Init.BaudRate = 115200;
+  huart1.Init.BaudRate = 9600;
   huart1.Init.WordLength = UART_WORDLENGTH_8B;
   huart1.Init.StopBits = UART_STOPBITS_1;
   huart1.Init.Parity = UART_PARITY_NONE;

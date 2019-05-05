@@ -166,3 +166,71 @@ C Model Exception: C Model Status [Element main.c does not exist.]
 	at org.eclipse.jface.text.reconciler.AbstractReconciler$BackgroundThread.run(AbstractReconciler.java:207)
 !SUBENTRY 1 org.eclipse.cdt.core 4 969 2019-05-05 21:05:11.904
 !MESSAGE Element main.c does not exist.
+
+!ENTRY com.atollic.truestudio.productmanager 1 0 2019-05-05 22:22:51.417
+!MESSAGE Unloading product manager
+!SESSION 2019-05-05 22:23:08.746 -----------------------------------------------
+eclipse.buildId=unknown
+java.version=1.8.0_181
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86, WS=win32, NL=ja_JP
+Command-line arguments:  -os win32 -ws win32 -arch x86
+
+!ENTRY com.atollic.truestudio.productmanager 1 0 2019-05-05 22:23:24.489
+!MESSAGE Loading product manager
+
+!ENTRY com.atollic.truestudio.productmanager 1 0 2019-05-05 22:23:25.207
+!MESSAGE OS info: Windows 10, 10.0, x86
+
+!ENTRY TrueSTUDIO 1 0 2019-05-05 22:23:35.767
+!MESSAGE Target: STM32, Version: 9.3.0, Build date: 20190212-0734, Installation dir: /C:/Program Files (x86)/Atollic/TrueSTUDIO for STM32 9.3.0/ide/
+
+!ENTRY TrueSTUDIO 1 0 2019-05-05 22:23:35.768
+!MESSAGE Workspace: C:\STM_workspace\STM32F446RE_Serial
+
+!ENTRY org.eclipse.jface 2 0 2019-05-05 22:23:55.926
+!MESSAGE Keybinding conflicts occurred.  They may interfere with normal accelerator operation.
+!SUBENTRY 1 org.eclipse.jface 2 0 2019-05-05 22:23:55.926
+!MESSAGE A conflict occurred for ALT+CTRL+T:
+Binding(ALT+CTRL+T,
+	ParameterizedCommand(Command(org.eclipse.team.svn.ui.command.EditPropertiesCommand,Show Properties,
+		,
+		Category(org.eclipse.team.svn.ui.command.category,SVN,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@ab42d6,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+Binding(ALT+CTRL+T,
+	ParameterizedCommand(Command(org.eclipse.tm.terminal.connector.local.command.launch,Open Local Terminal on Selection,
+		,
+		Category(org.eclipse.tm.terminal.view.ui.commands.category,ターミナル・コマンド,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@1adb08c,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+
+!ENTRY com.atollic.truestudio.integration.processorexpert 0 0 2019-05-05 22:24:18.584
+!MESSAGE Atollic TrueSTUDIO Processor Expert integration is up.
+
+!ENTRY org.eclipse.egit.ui 2 0 2019-05-05 22:24:18.586
+!MESSAGE Warning: The environment variable HOME is not set. The following directory will be used to store the Git
+user global configuration and to define the default location to store repositories: 'C:\Users\wwwho'. If this is
+not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
+EGit might behave differently since they see different configuration options.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+
+!ENTRY edu.hawaii.ics.csdl.jupiter 1 0 2019-05-05 22:24:20.890
+!MESSAGE Code Review is up.
+
+!ENTRY TrueSTUDIO 4 0 2019-05-05 23:26:00.333
+!MESSAGE ST-LINK GDB server failed to start (exit code = 2)
+
+!ENTRY org.eclipse.cdt.dsf.gdb 4 5012 2019-05-05 23:26:00.492
+!MESSAGE ST-Linkデバイスの初期化エラー。
+理由: (2) ST-Link DLLエラー
+
+!ENTRY org.eclipse.cdt.core 1 0 2019-05-05 23:44:07.908
+!MESSAGE Indexed 'STM32F446RE_Serial4' (21 sources, 97 headers) in 6.01 sec: 8,055 declarations; 29,666 references; 6 unresolved inclusions; 269 syntax errors; 2,764 unresolved names (6.8%)
+
+!ENTRY com.atollic.hardwaredebug.launch 2 0 2019-05-05 23:50:26.692
+!MESSAGE Won't launch debug session since we failed to locate the binary.
